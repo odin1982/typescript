@@ -1,1 +1,1 @@
-Nos quedamos the Course Project Setup
+Working with numbers,Strings & Booleans
