@@ -76,3 +76,14 @@ Comando para verificar el tipo de dato de una variable.
     let numero: number; //Cuando no se inicializa es una buena practica asiganrle un tipo
     numero = 5;
     
+## Type inference
+    Typescript asigna el tipo de tu variable segun la inicializacion de esta.
+
+    A una variable se le asigna su tipo solo si no se inicializa, si tu inicializas una variable por ejemplo:
+
+    const algo = 5; 
+
+    es una mala practica asignarle el tipo
+
+    const algo: number = 5;  //es correcto pero redundante
+
