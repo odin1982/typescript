@@ -68,4 +68,11 @@
 
 ## typeof (javascript command)
 Comando para verificar el tipo de dato de una variable.
+
+
+## Inicializar variables
+    let numero: number = 5; //bad practice is redundant
+
+    let numero: number; //Cuando no se inicializa es una buena practica asiganrle un tipo
+    numero = 5;
     
