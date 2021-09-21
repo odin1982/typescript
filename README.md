@@ -35,9 +35,11 @@
 
 ## Types Typescript
 ### Core types
-* number        --> 1,5.3,-10   --> All numbers, no differentation between integers or floats
+* number        --> 1,5.3,-10       --> All numbers, no differentation between integers or floats
 * string        --> 'Hi',"Hi",`Hi`  --> All text values
 * boolean       --> true,false
+* object        --> {age:30}        --> Any Javascript object, more specific types are posible
+* Array         --> [1,2,3]         --> Any Javascript array, type can be flexible or strict
 
 ## The course project setup
 * create index.html
