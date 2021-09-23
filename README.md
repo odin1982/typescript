@@ -41,6 +41,7 @@
 * object        --> {age:30}        --> Any Javascript object, more specific types are posible
 * Array         --> [1,2,3]         --> Any Javascript array, type can be flexible or strict
 * Tuple         --> [1,2]           --> Added by Typescript Fixed-length array
+* Enum          --> enum{OLD,NEW}   --> Automatically enumerated global constant identifiers
 
 ## The course project setup
 * create index.html
