@@ -42,6 +42,7 @@
 * Array         --> [1,2,3]         --> Any Javascript array, type can be flexible or strict
 * Tuple         --> [1,2]           --> Added by Typescript Fixed-length array
 * Enum          --> enum{OLD,NEW}   --> Automatically enumerated global constant identifiers
+* any                               --> Accept any type you want
 
 ## The course project setup
 * create index.html
@@ -90,4 +91,8 @@ Comando para verificar el tipo de dato de una variable.
     es una mala practica asignarle el tipo
 
     const algo: number = 5;  //es correcto pero redundante
+
+## Union Types
+Los Union Types sirven para asigara un variable o paremtros dos o mas tipos diferente de datos, en ocasiones se necesita que no sea
+de un solo tipo si no de 2 o varios.
 
