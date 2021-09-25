@@ -99,3 +99,22 @@ de un solo tipo si no de 2 o varios.
 ## Literal Types
 Poner un mas antes de una variable la convierte en número.
 
+function combine(input1: number | string, input2: number | string,resultConversion:'as-number'|'as-text'){
+}
+
+
+## Type aliases / Custom types
+//you can invent de type name, in this case we use Combinable  
+type Combinable = number | string;
+
+
+function combine(input1: Combinable, input2: Combinable,resultConversion:'as-number'|'as-text'){
+    let result;
+    if(typeof input1 === 'number' && typeof input2 === 'number' || resultConversion==='as-number'){
+        result = +input1 + +input2;
+    }else{
+        result = input1.toString() + input2.toString();
+    }
+
+    return result;
+}
