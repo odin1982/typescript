@@ -96,3 +96,6 @@ Comando para verificar el tipo de dato de una variable.
 Los Union Types sirven para asigara un variable o paremtros dos o mas tipos diferente de datos, en ocasiones se necesita que no sea
 de un solo tipo si no de 2 o varios.
 
+## Literal Types
+Poner un mas antes de una variable la convierte en número.
+
